@@ -1,0 +1,144 @@
+:root {
+    --highlight-color: #82c2c3;
+    --framing-color: #354563;
+    --main-background-color: #e9e9f5
+}
+body {
+    background-color: var(--main-background-color);
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    background-color: #1e1f23;
+    margin: 0px;
+}
+
+h1 {
+    padding: 6px 6px 6px 90px;
+    background-color: var(--highlight-color);
+}
+
+h2 {
+    color: var(--framing-color);
+    font-size: 33px;
+    margin: 9px;
+    padding: 3px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    color: var(--highlight-color);
+    padding: 5px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+#hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("Images/Background.jpeg");
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#hero h3 {
+    background-color: var(--highlight-color);
+    font-size: 27px;
+    margin: 0px 33px 9px 0px;
+    padding: 3px;
+}
+
+p {
+    color: var(--framing-color);
+}
+
+#profile-picture {
+    width: 300px;
+    
+}
+
+.flex-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-name {
+    display: flex;
+    justify-content: flex-end;
+    padding: 9px;
+    width: 90px;
+    border-right: 3px solid var(--framing-color);
+    margin: 21px;
+}
+
+.section-body {
+    width: 552px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work-section-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-body img {
+    margin: 3px 3px 6px 3px;
+    border: 3px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    opacity: 1;
+}
+
+.section-body img:hover {
+    opacity: .65;
+    transition: opacity 0.3s ease;
+}
+
+#big-img {
+    height: 210px;
+    width: 552px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.small-img {
+    height: 90px;
+    width: 260px;
+    object-fit: cover;
+}
+
+#contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-me a {
+    color: black;
+    padding: 6px;
+}
+
+#contact-me li {
+    padding: 6px;
+    color: var(--framing-color);
+}
