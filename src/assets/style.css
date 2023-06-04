@@ -1,0 +1,217 @@
+:root {
+    --highlight-color: #ffde59;
+    --grey: #808080;
+    --offset-black: #000106;
+    --offset-white: #e9eeff;
+    --subheader-font: 'Actor', sans-serif;
+    --body-font: 'Prompt', sans-serif;
+    --h1-font: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#lets-work-together-ul {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: var(--grey);
+    border-radius: 3%;
+    list-style-type: circle;
+    padding: 24px;
+}
+
+body {
+    background: linear-gradient(to right, var(--highlight-color) 80% , white 100%);   
+    margin: 0px;
+}
+
+.headers {
+    padding: 9px;
+}
+
+.custom-col {
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    color: var(--grey);
+    background-color: black;
+}
+
+#h1 {
+    color: var(--offset-white);
+    font-family: var(--h1-font);
+}
+
+.on-hover-white:hover {
+    color: white;
+}
+
+.subheading {
+    font-family: var(--subheader-font);
+    color: var(--grey);
+}
+
+.highlighted-word {
+    color: var(--highlight-color);
+}
+
+h3 {
+    font-family: var(--subheader-font);
+}
+
+
+li {
+    font-family: var(--body-font);
+    display: inline-block;
+    color: var(--offset-black)
+}
+
+#lets-work-together-header {
+    color: var(--offset-black);
+}
+
+#work-header {
+    font-size: 30px;
+    color: var(--offset-white);
+}
+
+#absolute-position-nav {
+    position: absolute;
+    left:0px;
+    padding: 0px;
+}
+
+.padding-top-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-family: var(--body-font);
+    color: var(--offset-black); 
+}
+
+
+#hero {
+    width: 100%;
+    height: 2000;
+    /* background-image: url("images/kira-field.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+#work {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+}
+
+
+.portfolio-img:hover {
+    box-shadow: 0 0 10px 5px var(--highlight-color)
+}
+
+
+#lets-work-together a {
+    font-size: 20px;
+    color: var(--offset-black);
+    padding: 6px;
+}
+
+#lets-work-together li {
+    padding: 6px;
+    /* color: var(--offset-black); */
+}
+
+
+#linkedin-logo {
+    width: 450px;
+}
+
+@media (min-width: 601px) {
+    #lets-work-together-header {
+        font-size: 40px;
+    }
+
+    #lets-work-together-ul li {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    #hero-quote {
+        font-size: 40px;
+    }
+
+    .subheading {
+        font-size: 22px;
+    }
+    
+    .portfolio-img {
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        margin: 12px;
+        opacity: 1;
+    }
+    .portfolio-img-a {
+        max-width: 50%;
+        margin: 15px 0px 15px 0px;
+    }
+    #profile-picture {
+        width: 100%; 
+        object-fit: cover;  
+    }
+}
+
+@media (max-width: 600px) {
+    #lets-work-together-ul li, #lets-work-together-ul a li {
+        font-size: 16px;
+    }
+
+    #lets-work-together-ul {
+        padding: 9px;
+    }
+
+    .portfolio-img, #linkedin-logo, #profile-picture {
+        max-width: 100%;
+    }
+
+    .portfolio-img-a {
+        max-width: 90%;
+    }
+
+    #h1 {
+        font-size: 27px;
+    }
+
+    .subheading {
+        font-size: 16px;
+    }
+
+    /* #profile-picture {
+        width: 300px;   
+        height: auto;
+    } */
+}

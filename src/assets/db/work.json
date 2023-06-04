@@ -1,0 +1,22 @@
+[
+    {
+        "link": "https://www.JournalJar.io",
+        "imageFileName": "journal-jar.png",
+        "title": "Journal Jar"
+    },
+    {
+        "link": "https://www.textmsgjournal.com",
+        "imageFileName": "benji.png",
+        "title": "Benji Text Message Journal"
+    },
+    {
+        "link": "https://planet-hopper.herokuapp.com/",
+        "imageFileName": "planet-hopper.png",
+        "title": "Journal Jar"
+    },
+    {
+        "link": "https://date-itinerary.herokuapp.com/",
+        "imageFileName": "date-itinerary.png",
+        "title": "Journal Jar"
+    }
+]
