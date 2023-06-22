@@ -146,10 +146,21 @@ p {
     width: 450px;
 }
 
+
 @media (min-width: 601px) {
     #lets-work-together-header {
         font-size: 40px;
     }
+
+    #about-link {
+        right: 10px;
+    }
+
+    #header-headings {
+       flex-direction: row;
+    }
+
+
 
     #lets-work-together-ul li {
         width: 100%;
@@ -189,6 +200,18 @@ p {
     #lets-work-together-ul li, #lets-work-together-ul a li {
         font-size: 16px;
     }
+
+    #about-link {
+        right: 0px;
+        margin: '10px auto 0';
+        color: "red";
+        width: 100%;;
+    }
+
+
+    #header-headings {
+        flex-direction: column;
+     }
 
     #lets-work-together-ul {
         padding: 9px;

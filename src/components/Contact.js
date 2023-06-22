@@ -26,6 +26,12 @@ export default function Contact() {
                         If you're old school, feel free to shoot me an email: willrcline.atx@gmail.com
                     </li>
                     <br /><br />
+                    <a className="p-0 on-hover-white" href="/about">
+                        <li className="p-0 on-hover-white">
+                           Learn more about my story
+                        </li>
+                    </a>
+                    <br /><br />
                 </ul>
             </div>
             <section className="col col-sm-4 col-12">
