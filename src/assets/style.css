@@ -8,6 +8,18 @@
     --h1-font: 'Roboto', sans-serif;
 }
 
+.react-pdf__Page__annotations {
+    display: none;
+}
+
+.react-pdf__Page {
+    display: flex;
+    justify-content: center;
+}
+.react-pdf__Page__canvas {
+    margin: 9px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -168,7 +180,7 @@ p {
     }
 
     p {
-        font-size: 19px;
+        font-size: 30px;
     }
 
     #hero-quote {
@@ -199,6 +211,10 @@ p {
 @media (max-width: 600px) {
     #lets-work-together-ul li, #lets-work-together-ul a li {
         font-size: 16px;
+    }
+
+    p {
+        font-size: 19px;
     }
 
     #about-link {
